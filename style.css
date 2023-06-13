@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    padding-top: 3%;
+    margin: auto;
+    width: 1024px;
+    height: auto;
+    background-color: rgb(200, 200, 200);
+    background-image: url(https://img.freepik.com/fotos-premium/fondos-pantalla-iphone-es-mejor-fondo-pantalla-alta-definicion-iphone-que-puede-hacer-fondo-pantalla-sus-fondos-iphone-x-protector-pantalla-movil-o-fondo-pantalla-iphone-pantalla-bloqueo-ipad_789916-138.jpg);
+}
+.contenedor-cabecera {
+    width: 100%;
+    height: 80px;
+    border-bottom: 2px solid rgb(175, 127, 60); 
+    display: flex;
+    margin: auto;
+}
+h1{
+    width: 20%;
+    text-align: left;
+    font-size: 40px;
+    color: white;
+    padding-left: 5%;
+    margin-top: 15px;
+    /*background-color: antiquewhite;*/
+}
+#nav-cabecera{
+    width: 100%;
+    height: 80px;
+    /*background-color: #f2f2f2;*/
+}
+ul{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: right;
+    /*background-color: rgb(0, 153, 255);*/
+}
+li{
+    list-style: none;
+    padding: 2%;
+    margin: 1.2%;  
+}
+a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-color: beige;
+    color: white;
+    border-radius: 4px;
+    padding: 10%;
+    
+}
+a:hover{
+    background-color: rgb(52, 52, 52);
+}
+.main{
+    width: 50%;
+}
+h2{
+    font-size: 2.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    padding-left: 5%;
+    margin-top: 30%;
+    color: white;
+}
+
+p{
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    padding-left: 5%;
+    color: rgb(238, 238, 238);
+}
+#info{
+    font-size: 0.9em;
+    margin-left: 5%;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border: solid 1px rgb(127, 127, 127);
+    background-color: rgb(238, 165, 93);
+    border-radius: 50px;rgb(234, 36, 36)rgb(188, 9, 9)
+}
+
+#info:hover   {
+    background-color: rgb(52, 52, 52);
+    }
